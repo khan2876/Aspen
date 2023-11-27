@@ -6,23 +6,24 @@ Create three classes, one for a School, one for a Teacher and another for a Stud
 
 ## Teacher class (2 pts)  
 A Teacher has a last name, first name, room number, and a hire year.
-* getFirstName()
-* getLastName()
-* getRoomNumber()
-* numYearsEmployed() : 2023 - hire_year  
+* String getFirstName()
+* String getLastName()
+* int getRoomNumber()
+* int numYearsEmployed() : 2023 - hire_year  
 
 ## Student class (2 pts)  
 A Student has a last name, first name, LASID, and a year of graduation.
-* getFirstName()
-* getLastName()
-* getLASID()
-* numYOG()  
+* String getFirstName()
+* String getLastName()
+* int getLASID()
+* int numYOG()  
 
 ## School class (3 pts)  
 A School contains an array of Teacher objects and an array of Student objects.
 * Constructor that takes a filename with the data about people in the school and creates the Teacher and Student objects
-* numStudents() - gives the number of students in the school
-* numTeachers() - gives the number of teachers in the school
+* int numStudents() - gives the number of students in the school
+* int numTeachers() - gives the number of teachers in the school
+* void listStudents(String school) - prints a list of students in a particular school
 
 # Data file  
 The first line of the file tells how many students and teachers are in the school.  The first number is the number of students and the second is the number of teachers.  
